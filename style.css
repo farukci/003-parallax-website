@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #f4f4f4;
+}
+
+.img1, .img2, .img3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url(./img/Image1.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(./img/Image2.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(./img/Image3.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #f4f4f4;
+}
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.border-dark {
+    background-color: #111111;
+    padding: 20px;
+}
