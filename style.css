@@ -14,7 +14,6 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     background-attachment: fixed;
 }
 
@@ -60,7 +59,7 @@ html, body {
 }
 
 .border-dark {
-    background-color: #111111;
+    background-color: #111;
     padding: 20px;
 }
 
